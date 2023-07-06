@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/Favicon-48x.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Meteora</title>
+</head>
+<body>
+    <header>
+        <div class="logotipo">
+            <img src="assets/Desktop/Logo desktop.png" alt="Logo Meteora" class="logo-desktop">
+            <img src="assets/Tablet/Logo tablet.png" alt="Logo Meteora" class="logo-tablet">
+            <img src="assets/Mobile/Logo mobile.png" alt="Logo Meteora" class="logo">
+
+            <div class="container-menu">
+                <input type="checkbox" id="checkbox-menu" class="checkbox-botao">
+                <label for="checkbox-menu" class="menu-hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="links-menu">
+                    <li class="link"><a href="#">Home</a></li>
+                        <div class="linha"></div>
+                    <li class="link"><a href="#">Nossas lojas</a></li>
+                        <div class="linha"></div>
+                    <li class="link"><a href="#">Novidades</a></li>
+                        <div class="linha"></div>
+                    <li class="link"><a href="#">Promoções</a></li>
+                </ul>
+            </div>
+            <div class="busca">
+                <input type="search" id="search" class="search-box" placeholder="Digite o produto">
+                <label for="search" class="search-box search-button"><button>Search</button></label>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <!-- Slider main container -->
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                        <!-- Slides -->
+                    <div class="swiper-slide slide">
+                        <img src="assets/Mobile/Banner carousel 1 _ 375.png" alt="banner" class="banner1">
+                        <img src="assets/Tablet/Banner carousel 1 _ 768.png" alt="banner" class="banner2">
+                        <img src="assets/Desktop/Banner carousel 1 _ 1440 (1).png" alt="banner" class="banner3">
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="assets/Mobile/Banner carousel 2 _ 375.png" alt="banner" class="banner1">
+                        <img src="assets/Tablet/Banner carousel 2 _ 768.png" alt="banner" class="banner2">
+                        <img src="assets/Desktop/Banner carousel 2 _ 1440 (1).png" alt="banner" class="banner3">
+                        <div class="texto-swipper tablet2">
+                            <h1 class="titulo-swipper ptablet">Coleção Atemporal</h1>
+                            <p class="paragrafo-swipper ptablet">Estilo e qualidade para durar.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="assets/Mobile/Banner carousel 3 _ 375.png" alt="banner" class="banner1">
+                        <img src="assets/Tablet/Banner carousel 3 _ 768.png" alt="banner" class="banner2">
+                        <img src="assets/Desktop/Banner carousel 3 _ 1440 (1).png" alt="banner" class="banner3">
+                        <div class="texto-swipper tablet3">
+                            <h2 class="titulo-swipper pdesk">Coleção Atemporal</h2>
+                            <p class="paragrafo-swipper pdesk">Alto impacto visual, baixo impacto ambiental.</p>
+                        </div>
+                    </div>
+                </div>
+            <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+            <!-- If we need navigation buttons -->
+                <div><img src="assets/extra/icon-arrow-left.png" class="swiper-button-prev hidden"></div>
+                <div><img src="assets/extra/bx-top-arrow.png" class="swiper-button-next hidden"></div>
+            </div>
+        </section>
+        <section class="categoria">
+            <h2 class="categorias-titulo">Busque por categorias:</h2>
+            <div class="categorias">
+                <a href="#" class="container">
+                    <img src="assets/Mobile/Categorias/Categoria camiseta.png" alt="Camisa" class="mobile-categoria">
+                    <img src="assets/Tablet/Categorias/Categoria camiseta.png" alt="Camisa" class="tablet-categoria">
+                    <img src="assets/Desktop/Categorias/Categoria camiseta.png" alt="Camisa" class="desk-categoria">
+                    <p class="categoria-paragrafo">Camisetas</p>
+                </a>
+                <a class="container">
+                    <img src="assets/Mobile/Categorias/Categoria Bolsas.png" alt="Bolsa" class="mobile-categoria">
+                    <img src="assets/Tablet/Categorias/Categoria Bolsas.png" alt="Bolsa" class="tablet-categoria">
+                    <img src="assets/Desktop/Categorias/Categoria Bolsa.png" alt="Bolsa" class="desk-categoria">
+                    <p class="categoria-paragrafo">Bolsas</p>
+                </a>
+                <a class="container">
+                    <img src="assets/Mobile/Categorias/Categoria calçados.png" alt="Tênis" class="mobile-categoria">
+                    <img src="assets/Tablet/Categorias/Categoria calçados.png" alt="Tênis" class="tablet-categoria">
+                    <img src="assets/Desktop/Categorias/Categoria Calçados.png" alt="Tênis" class="desk-categoria">
+                    <p class="categoria-paragrafo">Calçados</p>
+                </a>
+                <a class="container">
+                    <img src="assets/Mobile/Categorias/Categoria calças.png" alt="Calça" class="mobile-categoria">
+                    <img src="assets/Tablet/Categorias/Categoria calças.png" alt="Calça" class="tablet-categoria">
+                    <img src="assets/Desktop/Categorias/Categoria calça.png" alt="Calça" class="desk-categoria">
+                    <p class="categoria-paragrafo">Calças</p>
+                </a>
+                <a class="container">
+                    <img src="assets/Mobile/Categorias/Categoria Casacos.png" alt="Jaqueta" class="mobile-categoria">
+                    <img src="assets/Tablet/Categorias/Categoria casacos.png" alt="Jaqueta" class="tablet-categoria">
+                    <img src="assets/Desktop/Categorias/Categoria casacos.png" alt="Jaqueta" class="desk-categoria">
+                    <p class="categoria-paragrafo">Casacos</p>
+                </a>
+                <a class="container">
+                    <img src="assets/Mobile/Categorias/Categoria óculos.png" alt="Óculos" class="mobile-categoria">
+                    <img src="assets/Tablet/Categorias/Categoria óculos.png" alt="Óculos" class="tablet-categoria">
+                    <img src="assets/Desktop/Categorias/Categoria óculos.png" alt="Óculos" class="desk-categoria">
+                    <p class="categoria-paragrafo">Óculos</p>
+                </a>
+            </div>
+        </section>
+        <section class="produtos">
+            <h2 class="titulo-produtos">Produtos que estão bombando!</h2>
+            <div class="secao-produtos">
+                <div class="container-produtos">
+                    <img src="assets/Desktop/Imagens-Cards/Camiseta.png" data-image="camisa" alt="modelo camiseta">
+                    <h4 data-titulo="camisa">Camiseta Conforto</h4>
+                    <p data-descricao="camisa">Multicores e tamanhos. Tecidos de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
+                    <span data-preco="camisa">R$ 70,00</span>
+                    <button class="abrirModal" data-modal="camisa">Ver mais</button>
+                </div>
+                <div class="container-produtos">
+                    <img src="assets/Desktop/Imagens-Cards/Calça.png" data-image="calça" alt="modelo calça">
+                    <h4 data-titulo="calça">Calça Alfaiataria</h4>
+                    <p data-descricao="calça">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
+                    <span data-preco="calça">R$ 180,00</span>
+                    <button class="abrirModal" data-modal="calça">Ver mais</button>
+                </div>
+                <div class="container-produtos">
+                    <img src="assets/Desktop/Imagens-Cards/Tenis.png" data-image="tenis" alt="modelo tênis">
+                    <h4 data-titulo="tenis">Tênis Chunky</h4>
+                    <p data-descricao="tenis">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
+                    <span data-preco="tenis">R$ 250,00</span>
+                    <button class="abrirModal" data-modal="tenis">Ver mais</button>
+                </div>
+                <div class="container-produtos">
+                    <img src="assets/Desktop/Imagens-Cards/Jaqueta.png" data-image="jaqueta" alt="modelo jaqueta">
+                    <h4 data-titulo="jaqueta">Jaqueta Jeans</h4>
+                    <p data-descricao="jaqueta">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+                    <span data-preco="jaqueta">R$ 150,00</span>
+                    <button class="abrirModal" data-modal="jaqueta">Ver mais</button>
+                </div>
+                <div class="container-produtos">
+                    <img src="assets/Desktop/Imagens-Cards/óculos.png" data-image="oculos" alt="modelo óculos">
+                    <h4 data-titulo="oculos">Óculos Redondo</h4>
+                    <p data-descricao="oculos">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+                    <span data-preco="oculos">R$ 120,00</span>
+                    <button class="abrirModal" data-modal="oculos">Ver mais</button>
+                </div>
+                <div class="container-produtos">
+                    <img src="assets/Desktop/Imagens-Cards/Bolsa.png" data-image="bolsa" alt="modelo bolsa">
+                    <h4 data-titulo="bolsa">Bolsa coringa</h4>
+                    <p data-descricao="bolsa">Bolsa camel em couro sintética de alta duração. Ideal para acompanhar você por uma vida!</p>
+                    <span data-preco="bolsa">R$ 120,00</span>
+                    <button class="abrirModal" data-modal="bolsa">Ver mais</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="facilidades">
+            <h2 class="facilidades-titulo">Conheça todas as nossas facilidades</h2>
+            <div class="facilidades-container">
+                <img src="assets/Mobile/Ícones/x-diamond.png" alt="Pix icone" class="mobile-icon">
+                <img src="assets/Tablet/Ícones/x-diamond (1).png" alt="Pix icone" class="tablet-icon">
+                <img src="assets/Desktop/Ícones/x-diamond (2).png" alt="Pix icone" class="desk-icon">
+                <h3 class="container-titulo">Pague pelo PIX</h3>
+                <p>Ganhe até 5% OFF em pagamentos via PIX</p>
+            </div>
+            <div class="facilidades-container">
+                <img src="assets/Mobile/Ícones/arrow-repeat.png" alt="Troca icone" class="mobile-icon">
+                <img src="assets/Tablet/Ícones/arrow-repeat (1).png" alt="Troca icone" class="tablet-icon">
+                <img src="assets/Desktop/Ícones/arrow-repeat (2).png" alt="Troca icone" class="desk-icon">
+                <h3 class="container-titulo">Troca Grátis</h3>
+                <p>Fique livre para trocar em até 30 dias.</p>
+            </div>
+            <div class="facilidades-container">
+                <img src="assets/Mobile/Ícones/flower1.png" alt="Sustentabilidade icone" class="mobile-icon">
+                <img src="assets/Tablet/Ícones/flower1 (1).png" alt="Sustentabilidade icone" class="tablet-icon">
+                <img src="assets/Desktop/Ícones/flower1 (3).png" alt="Sustentabilidade icone" class="desk-icon">
+                <h3 class="container-titulo">Sustentabilidade</h3>
+                <p>Moda responsável, que respeita o meio ambiente.</p>
+            </div>
+        </div>
+        <div class="email">
+            <p>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</p>
+            <div class="input-email">
+                <input type="email" placeholder="Digite seu email" class="email-submit">
+                <button class="submit-button abrirModal">Enviar</button>
+            </div>
+        </div>
+        <div class="copyright-text">
+            <p>2023 &copy; Desenvolvido por Fabrício | Projeto fictício sem fins comerciais.</p>
+        </div>
+    </footer>
+    <dialog class="modal" aria-labelledby="dialog-title">
+            <header class="modal-header">
+                <img src="assets/check-circle.png">
+                <h5 id="dialog-title"></h5>
+                <button class="closeBtn"><img src="assets/XbuttonIcon.png" class="fechar-button"></button>
+            </header>
+            <main class="modal-main">
+                <fieldset class="caixa-modal">
+                    
+                </fieldset>
+            </main>
+            <div class="modal-overlay"></div>
+        </dialog>
+    <script src="script/modal.js"></script>
+    <script src="script/modalDinamic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+                hiddenClass: '.hidden',
+            },
+        });
+    </script>
+</body>
+</html>
