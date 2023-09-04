@@ -5,9 +5,9 @@ Challenge da Alura sobre Front-end (Sem fins comerciais)
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Meteora**
-| :label: Tecnologias | HTML, CSS, JavaScript (tecnologias utilizadas)
-| :rocket: URL         | [deploy Meteora](https://meteora-liart.vercel.app/)
-| :fire: Desafio     | [URL do desafio](https://www.alura.com.br/challenges/front-end-7)
+| :label: Tecnologias | HTML, CSS, JavaScript
+| :rocket: URL         | https://meteora-liart.vercel.app/
+| :fire: Desafio     | https://www.alura.com.br/challenges/front-end-7
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![image](https://github.com/FabricioZago/Meteora/assets/124259349/06473390-129a-461c-8075-3fd500b2bc9e#vitrinedev)
