@@ -2,7 +2,7 @@
 
 Challenge da Alura sobre Front-end (Sem fins comerciais)
 
-| :placard: Vitrine.Dev |   [Meu vitrine.Dev](https://cursos.alura.com.br/user/fabricioz2011)  |
+| :placard: Vitrine.Dev |   [Meu vitrine.Dev](https://cursos.alura.com.br/vitrinedev/fabricioz2011)  |
 | -------------  | --- |
 | :sparkles: Nome        | **Meteora**
 | :label: Tecnologias | HTML, CSS, JavaScript (tecnologias utilizadas)
